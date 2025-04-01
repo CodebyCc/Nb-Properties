@@ -10,11 +10,11 @@ function Section() {
     <div>
       <div>
         <Grid>
-          <div className="">
+          <div>
             <h1 className=" mt-20 md:mt-0 text-center text-3xl md:text-6xl font-bold underline md:no-underline mb-6">
               Modern luxe <span className="text-yellow-400">Homes</span>
             </h1>
-            <p className="pl-5 text-xl font-semibold tracking-widest">
+            <p className="pl-5 text-xl tracking-widest">
               Offering you the opportunity to live comfortably in a luxurious
               yet affordable homes. Discover the perfect blend of elegance and
               affordability with our luxurious homes that dont break the bank.
@@ -39,7 +39,7 @@ function Section() {
           <h1 className="text-center underline md:no-underline text-3xl md:text-6xl font-bold mb-6 ">
             Innovative Elegant <span className="text-yellow-400">Designs</span>
           </h1>
-          <p className="pl-5  text-xl font-semibold tracking-widest">
+          <p className="pl-5 text-xl  tracking-widest">
             Explore our collection of innovative elegant designs that redefine
             style and functionality. Each piece is thoughtfully crafted to blend
             modern aesthetics with timeless sophistication, ensuring that your
@@ -63,7 +63,7 @@ function Section() {
             Minimalistic Contemporary
             <span className="text-yellow-400"> Homes</span>
           </h1>
-          <p className="pl-5 text-xl font-semibold tracking-widest">
+          <p className="pl-5 text-xl  tracking-widest">
             Less is more. In minimalistic contemporary design, simplicity
             creates space for elegance, allowing beauty to shine through in
             every detail.
