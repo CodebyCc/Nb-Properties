@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div>
       <Grid>
-        <div className="">
+        <div className="mt-16">
           <h1 className="text-center text-4xl font-semibold mb-6">
             Building Procurement
           </h1>
