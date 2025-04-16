@@ -7,7 +7,7 @@ import Grid from "./Grid";
 
 function Section() {
   return (
-    <div>
+    <div className="mt-2">
       <div>
         <Grid>
           <div className="mt-6 md:mt-0">
@@ -24,7 +24,7 @@ function Section() {
               every detail.
             </p>
           </div>
-          <div className="relative -z-30 aspect-square ml-4 ">
+          <div className="relative -z-30 aspect-square ">
             <Image
               src={minimal2}
               fill
@@ -50,7 +50,7 @@ function Section() {
               staying within your budget. Your dream home awaits!
             </p>
           </div>
-          <div className="relative -z-30 aspect-square ml-8">
+          <div className="relative -z-30 aspect-square ">
             <Image
               src={modern1}
               fill

@@ -46,7 +46,7 @@ const slides = [
 
 const CoverCarousel = () => {
   return (
-    <div className="md:bg-gray-900">
+    <div className="bg-gray-900">
       <div className="w-full max-w-4xl mx-auto">
         <Swiper
           modules={[Navigation, Autoplay, Pagination, EffectCoverflow]}

@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { MdMenu, MdClose } from "react-icons/md";
+import home1 from "../../public/logo-whi.png";
+import Image from "next/image";
 // import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
@@ -13,7 +15,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="text-xl font-bold ">NB Properties</div>
+          {/* <div className="text-xl font-bold ">NB Properties</div> */}
+          <Link href="/">
+            <Image
+              src={home1}
+              alt="Logo of Nb"
+              width={130}
+              height={130}
+              className="mt-2"
+            />
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
