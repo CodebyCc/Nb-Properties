@@ -1,8 +1,8 @@
 import Image from "next/image";
-import home1 from "../../public/IMG_9019.jpg";
+
 import home2 from "../../public/IMG_9027.jpg";
-import home3 from "../../public/IMG_9020.jpg";
-import home4 from "../../public/minimalist.jpg";
+import modern1 from "../../public/modern1.jpg";
+import minimal2 from "../../public/minimal2.jpg";
 import Grid from "./Grid";
 
 function Section() {
@@ -10,10 +10,36 @@ function Section() {
     <div>
       <div>
         <Grid>
+          <div className="mt-6 md:mt-0">
+            <div id="home3">
+              <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse">
+                Minimalistic Contemporary
+                <span className="text-yellow-400"> Homes</span>
+              </h1>
+            </div>
+
+            <p className="pl-5 text-lg leading-relaxed  tracking-widest animate-slideUp">
+              Less is more. In minimalistic contemporary design, simplicity
+              creates space for elegance, allowing beauty to shine through in
+              every detail.
+            </p>
+          </div>
+          <div className="relative -z-30 aspect-square ml-4 ">
+            <Image
+              src={minimal2}
+              fill
+              className="object-cover"
+              alt="Image of minimalistic house"
+            />
+          </div>
+        </Grid>
+        <Grid>
           <div>
-            <h1 className=" mt-20 md:mt-0 text-center text-3xl md:text-4xl font-semibold  underline md:no-underline mb-6 animate-pulse">
-              Modern luxe <span className="text-yellow-400">Homes</span>
-            </h1>
+            <div id="home1">
+              <h1 className=" mt-20 md:mt-0 text-center text-3xl md:text-4xl font-semibold  underline md:no-underline mb-6 animate-pulse">
+                Modern luxe <span className="text-yellow-400">Homes</span>
+              </h1>
+            </div>
             <p className="pl-5 text-lg leading-relaxed motion-preset-slide-right-lg">
               Offering you the opportunity to live comfortably in a luxurious
               yet affordable homes. Discover the perfect blend of elegance and
@@ -24,11 +50,11 @@ function Section() {
               staying within your budget. Your dream home awaits!
             </p>
           </div>
-          <div id="home1" className="relative -z-30 aspect-square ml-8">
+          <div className="relative -z-30 aspect-square ml-8">
             <Image
-              src={home3}
+              src={modern1}
               fill
-              className="object-contain"
+              className="object-cover"
               alt="Logo Of Homeland Ghana"
             />
           </div>
@@ -36,9 +62,13 @@ function Section() {
       </div>
       <Grid>
         <div>
-          <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse ">
-            Innovative Elegant <span className="text-yellow-400">Designs</span>
-          </h1>
+          <div id="home2">
+            <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse ">
+              Innovative Elegant
+              <span className="text-yellow-400">Designs</span>
+            </h1>
+          </div>
+
           <p className="pl-5 text-xl leading-relaxed ">
             Explore our collection of innovative elegant designs that redefine
             style and functionality. Each piece is thoughtfully crafted to blend
@@ -48,33 +78,12 @@ function Section() {
             masterpiece.
           </p>
         </div>
-        <div id="home2" className="relative -z-30 aspect-square ml-4 ">
+        <div className="relative -z-30 aspect-square ml-4 ">
           <Image
             src={home2}
             fill
             className="object-contain"
             alt="Logo Of Homeland Ghana"
-          />
-        </div>
-      </Grid>
-      <Grid>
-        <div className="mt-6 md:mt-0">
-          <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse">
-            Minimalistic Contemporary
-            <span className="text-yellow-400"> Homes</span>
-          </h1>
-          <p className="pl-5 text-lg leading-relaxed  tracking-widest animate-slideUp">
-            Less is more. In minimalistic contemporary design, simplicity
-            creates space for elegance, allowing beauty to shine through in
-            every detail.
-          </p>
-        </div>
-        <div id="home3" className="relative -z-30 aspect-square ml-4 ">
-          <Image
-            src={home4}
-            fill
-            className="object-contain"
-            alt="Image of minimalistic house"
           />
         </div>
       </Grid>

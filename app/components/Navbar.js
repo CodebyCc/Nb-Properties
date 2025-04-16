@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white shadow-md w-full fixed top-0 z-50">
+    <nav className="bg-gray-900 text-white shadow-md w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -26,16 +26,16 @@ export default function Navbar() {
             <Link href="/services" className=" hover:text-yellow-400">
               Services
             </Link>
-            <Link href="/contact" className=" hover:text-yellow-400">
+            {/* <Link href="/contact" className=" hover:text-yellow-400">
               Contact
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="focus:outline-none"
+              className="focus:outline-none motion-preset-slide-down-left-lg"
               aria-label="Toggle Menu"
             >
               {isOpen ? <MdClose size={30} /> : <MdMenu size={30} />}
@@ -46,7 +46,13 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-900 shadow-lg absolute w-full left-0">
+        <div
+          className={
+            isOpen
+              ? "md:hidden bg-gray-900 shadow-lg motion-preset-slide-right-lg "
+              : "motion-preset-slide-left-lg"
+          }
+        >
           <div className="p-4 space-y-4 flex flex-col items-center">
             <Link
               href="/"
@@ -69,16 +75,19 @@ export default function Navbar() {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               href="/contact"
               className=" hover:text-yellow-400"
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}
     </nav>
   );
 }
+
+// previous style for navbar
+// absolute w-full left-0 fixed top-0

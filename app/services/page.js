@@ -70,15 +70,13 @@ export default function Page() {
         </div>
       </Grid>
       <div className="w-full text-center">
-        <h1 className="text-center text-6xl font-bold mb-6">
-          Property Supervision
-        </h1>
-        <p className="pl-5 text-xl  tracking-widest animate-fadeIn ">
+        <h1 className="text-center text-4xl font-bold mb-6">Our Services</h1>
+        <p className="pl-5 pb-2 text-xl  tracking-widest animate-fadeIn ">
           1. Quality Assurance: Supervision helps ensure that the work meets the
           required standards and specifications, leading to higher quality
           outcomes.
         </p>
-        <p className="pl-5 text-xl   animate-fadeIn ">
+        <p className="pl-5 text-xl animate-fadeIn ">
           2. Safety Management: A supervisor can enforce safety protocols
           on-site, reducing the risk of accidents and ensuring a safe working
           environment for all workers.

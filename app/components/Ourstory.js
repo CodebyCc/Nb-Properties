@@ -1,6 +1,6 @@
 function Ourstory() {
   return (
-    <div className="py-6 px-4">
+    <div className=" bg-gray-900 text-white py-6 px-4">
       <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-16">
         <h1 className="text-4xl font-semibold mb-4 motion-preset-wobble-sm">
           Our Story

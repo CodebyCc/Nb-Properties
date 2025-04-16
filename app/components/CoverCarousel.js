@@ -13,20 +13,25 @@ import {
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
-// import home1 from "../../public/IMG_9019.jpg";
-// import home2 from "../../public/IMG_9027.jpg";
-// import home3 from "../../public/IMG_9019.jpg";
 
-import home1 from "../../public/IMG_9019.jpg";
 import home2 from "../../public/IMG_9027.jpg";
-import home3 from "../../public/IMG_9020.jpg";
-import home4 from "../../public/minimalist.jpg";
+
+import minimal1 from "../../public/minimal1.jpg";
+import minimal2 from "../../public/minimal2.jpg";
+import modern2 from "../../public/modern2.jpg";
 
 const slides = [
   {
+    id: 3,
+    title: "Minimalistic Contemporary Homes",
+    // image: "/../../public/black-style.webp",
+    image: minimal1,
+    link: "#home3",
+  },
+  {
     id: 1,
     title: "Modern Luxe Homes",
-    image: home3,
+    image: modern2,
     // image: "/../../public/black-style.webp",
     link: "#home1",
   },
@@ -37,18 +42,11 @@ const slides = [
     // image: "/../../public/seven.png",
     link: "#home2",
   },
-  {
-    id: 3,
-    title: "Minimalistic Contemporary Homes",
-    // image: "/../../public/black-style.webp",
-    image: home4,
-    link: "#home3",
-  },
 ];
 
 const CoverCarousel = () => {
   return (
-    <div className="mt-8">
+    <div className="md:bg-gray-900">
       <div className="w-full max-w-4xl mx-auto">
         <Swiper
           modules={[Navigation, Autoplay, Pagination, EffectCoverflow]}
