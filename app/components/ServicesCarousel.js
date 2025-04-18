@@ -48,7 +48,7 @@ const slides = [
 function ServicesCarousel() {
   return (
     <div className="bg-gray-900">
-      <h1 className="text-4xl  mb-4 text-center text-white motion-preset-wobble-sm">
+      <h1 className="text-4xl  mb-4 text-center text-white animate-pulse">
         Our Services
       </h1>
       <div className="w-full max-w-4xl mx-auto">
