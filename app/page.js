@@ -1,17 +1,21 @@
 import Carousel from "./components/Carousel";
-import CoverCarousel from "./components/CoverCarousel";
+import FullVhCarousel from "./components/FullVhCarousel";
 import Nav from "./components/Nav";
 import Ourstory from "./components/Ourstory";
+import ProjectCarousel from "./components/ProjectCarousel";
 import Section from "./components/Section";
+import ServicesCarousel from "./components/ServicesCarousel";
 
 export default function Home() {
   return (
     <div>
-      {/* <Carousel /> */}
-      <CoverCarousel />
+      {/* <CoverCarousel /> */}
+      <ProjectCarousel />
+      {/* <FullVhCarousel /> */}
       <Ourstory />
+      <ServicesCarousel />
 
-      <Section />
+      {/* <Section /> */}
     </div>
   );
 }

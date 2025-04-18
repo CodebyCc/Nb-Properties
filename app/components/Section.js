@@ -3,6 +3,7 @@ import Image from "next/image";
 import home2 from "../../public/IMG_9027.jpg";
 import modern1 from "../../public/modern1.jpg";
 import minimal2 from "../../public/minimal2.jpg";
+import elegant from "../../public/elegant1.jpg";
 import Grid from "./Grid";
 
 function Section() {
@@ -10,9 +11,9 @@ function Section() {
     <div className="mt-2">
       <div>
         <Grid>
-          <div className="mt-6 md:mt-0">
+          <div className="mt-6 md:mt-0 motion-preset-slide-left-lg">
             <div id="home3">
-              <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse">
+              <h1 className="text-center text-3xl md:text-4xl  mb-6 animate-pulse">
                 Minimalistic Contemporary
                 <span className="text-yellow-400"> Homes</span>
               </h1>
@@ -24,7 +25,7 @@ function Section() {
               every detail.
             </p>
           </div>
-          <div className="relative -z-30 aspect-square ">
+          <div className="relative -z-30 aspect-square motion-preset-slide-up-right-lg">
             <Image
               src={minimal2}
               fill
@@ -34,10 +35,10 @@ function Section() {
           </div>
         </Grid>
         <Grid>
-          <div>
+          <div className="motion-preset-slide-left-lg">
             <div id="home1">
-              <h1 className=" mt-20 md:mt-0 text-center text-3xl md:text-4xl font-semibold  underline md:no-underline mb-6 animate-pulse">
-                Modern luxe <span className="text-yellow-400">Homes</span>
+              <h1 className=" mt-20 md:mt-0 text-center text-3xl md:text-4xl mb-6 animate-pulse">
+                Modern luxe <span className="text-yellow-400"> Homes</span>
               </h1>
             </div>
             <p className="pl-5 text-lg leading-relaxed motion-preset-slide-right-lg">
@@ -50,7 +51,7 @@ function Section() {
               staying within your budget. Your dream home awaits!
             </p>
           </div>
-          <div className="relative -z-30 aspect-square ">
+          <div className="relative -z-30 aspect-square motion-preset-slide-up-right-lg ">
             <Image
               src={modern1}
               fill
@@ -61,11 +62,11 @@ function Section() {
         </Grid>
       </div>
       <Grid>
-        <div>
+        <div className="motion-preset-slide-left-lg">
           <div id="home2">
-            <h1 className="text-center underline md:no-underline text-3xl md:text-4xl font-semibold mb-6 animate-pulse ">
+            <h1 className="text-center  md:no-underline text-3xl md:text-4xl  mb-6 animate-pulse ">
               Innovative Elegant
-              <span className="text-yellow-400">Designs</span>
+              <span className="text-yellow-400"> Designs</span>
             </h1>
           </div>
 
@@ -78,11 +79,11 @@ function Section() {
             masterpiece.
           </p>
         </div>
-        <div className="relative -z-30 aspect-square ml-4 ">
+        <div className="relative -z-30 aspect-square ml-4 motion-preset-slide-up-right-lg">
           <Image
-            src={home2}
+            src={elegant}
             fill
-            className="object-contain"
+            className="object-cover"
             alt="Logo Of Homeland Ghana"
           />
         </div>

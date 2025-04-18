@@ -37,16 +37,16 @@ export default function Navbar() {
             <Link href="/services" className=" hover:text-yellow-400">
               Services
             </Link>
-            {/* <Link href="/contact" className=" hover:text-yellow-400">
-              Contact
-            </Link> */}
+            <Link href="/projects" className=" hover:text-yellow-400">
+              Projects
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden ">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="focus:outline-none motion-preset-slide-down-left-lg"
+              className="focus:outline-none"
               aria-label="Toggle Menu"
             >
               {isOpen ? <MdClose size={30} /> : <MdMenu size={30} />}
@@ -86,13 +86,13 @@ export default function Navbar() {
             >
               Services
             </Link>
-            {/* <Link
-              href="/contact"
+            <Link
+              href="/projects"
               className=" hover:text-yellow-400"
               onClick={() => setIsOpen(false)}
             >
-              Contact
-            </Link> */}
+              Projects
+            </Link>
           </div>
         </div>
       )}

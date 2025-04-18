@@ -15,7 +15,7 @@ function Ourstory() {
           breaking the bank. With our expertise in the real estate market,
           we&apos;ll deliver a home that not only fits your budget but also
           incorporates the “latest smart home technologies”. We are indeed
-          <span className="text-yellow-400">𝐓𝐇𝐄 𝐍𝐄𝐗𝐓𝐠𝐞𝐧 𝐁𝐔𝐈𝐋𝐃𝐄𝐑𝐒</span>
+          <span className="text-yellow-400"> 𝐓𝐇𝐄 𝐍𝐄𝐗𝐓𝐠𝐞𝐧 𝐁𝐔𝐈𝐋𝐃𝐄𝐑𝐒</span>
         </p>
       </div>
     </div>
