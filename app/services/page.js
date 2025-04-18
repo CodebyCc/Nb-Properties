@@ -43,7 +43,7 @@ export default function Page() {
           <Image
             src={home2}
             fill
-            className="object-contain"
+            className="object-cover"
             alt="Logo Of Homeland Ghana"
           />
         </div>
@@ -57,7 +57,7 @@ export default function Page() {
             managed to transform visions into reality.We provide;
           </p>
         </div>
-        <div className=" relative -z-30 aspect-square ml-4 motion-preset-slide-left-lg">
+        <div className=" relative -z-30 aspect-square motion-preset-slide-left-lg">
           <Image
             src={supervision}
             fill
@@ -67,7 +67,9 @@ export default function Page() {
         </div>
       </Grid>
       <div className="w-full text-center bg-gray-900  text-white">
-        <h1 className="text-center text-4xl font-bold mb-6">Our Services</h1>
+        <h1 className="text-center text-4xl motion-preset-wobble-sm mb-6">
+          Our Services
+        </h1>
         <p className="pl-5 pb-2 text-xl  tracking-widest animate-fadeIn ">
           1. Quality Assurance: Supervision helps ensure that the work meets the
           required standards and specifications, leading to higher quality

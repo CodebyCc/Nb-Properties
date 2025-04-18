@@ -62,9 +62,9 @@ function Section() {
         </Grid>
       </div>
       <Grid>
-        <div className="motion-preset-slide-left-lg">
+        <div className="">
           <div id="home2">
-            <h1 className="text-center  md:no-underline text-3xl md:text-4xl  mb-6 animate-pulse ">
+            <h1 className="text-center  text-3xl md:text-4xl  mb-6 animate-pulse ">
               Innovative Elegant
               <span className="text-yellow-400"> Designs</span>
             </h1>
@@ -79,7 +79,7 @@ function Section() {
             masterpiece.
           </p>
         </div>
-        <div className="relative -z-30 aspect-square ml-4 motion-preset-slide-up-right-lg">
+        <div className="relative -z-30 aspect-square ml-4 ">
           <Image
             src={elegant}
             fill
