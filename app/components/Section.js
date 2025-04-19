@@ -25,7 +25,7 @@ function Section() {
               every detail.
             </p>
           </div>
-          <div className="relative -z-30 aspect-square motion-preset-slide-up-right-lg">
+          <div className="relative -z-30 aspect-square motion-preset-slide-right-lg">
             <Image
               src={minimal2}
               fill
@@ -51,7 +51,7 @@ function Section() {
               staying within your budget. Your dream home awaits!
             </p>
           </div>
-          <div className="relative -z-30 aspect-square motion-preset-slide-up-right-lg ">
+          <div className="relative -z-30 aspect-square motion-preset-slide-right-lg ">
             <Image
               src={modern1}
               fill

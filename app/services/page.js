@@ -6,6 +6,8 @@ import home3 from "../../public/mason.jpg";
 import supervision from "../../public/supervision.webp";
 
 import Image from "next/image";
+import SupervisionPara from "../components/SupervisionPara";
+import { GiCheckMark } from "react-icons/gi";
 
 export default function Page() {
   return (
@@ -13,7 +15,7 @@ export default function Page() {
       <Grid>
         <div id="home1" className="mt-2 motion-preset-slide-right-lg ">
           <h1 className="text-center text-4xl  mb-6">Building Procurement</h1>
-          <p className="pl-5 text-xl tracking-widest animate-fadeIn ">
+          <p className="pl-5 text-xl tracking-widest ">
             Effective building procurement is the foundation of successful
             construction; it ensures quality materials, timely delivery, and
             cost efficiency, paving the way for a project’s success. When it
@@ -43,7 +45,7 @@ export default function Page() {
           <Image
             src={home2}
             fill
-            className="object-cover"
+            className="object-contain"
             alt="Logo Of Homeland Ghana"
           />
         </div>
@@ -51,61 +53,56 @@ export default function Page() {
       <Grid>
         <div id="home2" className="mt motion-preset-slide-right-lg">
           <h1 className="text-center text-4xl  mb-6">Property Supervision</h1>
-          <p className="pl-5 text-xl tracking-widest motion-rotate-in-[0.5turn] ">
-            At Nb Properties, supervision is not just oversight; it&apos;s a
+
+          <p className="pl-5 text-xl  ">
+            1.At Nb Properties, supervision is not just oversight; it&apos;s a
             commitment to excellence, ensuring every detail is meticulously
             managed to transform visions into reality.We provide;
           </p>
+          <SupervisionPara>
+            Quality Assurance: Supervision helps ensure that the work meets the
+            required standards and specifications, leading to higher quality.
+          </SupervisionPara>
+          <SupervisionPara>
+            2. Safety Management: A supervisor can enforce safety protocols
+            on-site, reducing the risk of accidents and ensuring a safe working
+            environment for all workers.
+          </SupervisionPara>
+          <SupervisionPara>
+            3. Project Coordination: Supervisors facilitate communication
+            between different teams, ensuring that everyone is aligned and that
+            tasks are completed in a timely manner.
+          </SupervisionPara>
+          <SupervisionPara>
+            4. Problem Solving: With a supervisor on-site, issues can be
+            identified and resolved quickly, minimizing delays and maintaining
+            project momentum.
+          </SupervisionPara>
+          <SupervisionPara>
+            5. Resource Management: Effective supervision ensures that materials
+            and resources are used efficiently, helping to stay within budget
+            and reduce waste.
+          </SupervisionPara>
+          <SupervisionPara>
+            6. Compliance: Supervisors ensure that all work complies with local
+            laws, regulations, and building codes, avoiding legal issues down
+            the line.
+          </SupervisionPara>
+          <SupervisionPara>
+            7. Team Motivation: A good supervisor can inspire and motivate the
+            team, fostering a positive work environment and enhancing
+            productivity.
+          </SupervisionPara>
         </div>
         <div className=" relative -z-30 aspect-square motion-preset-slide-left-lg">
           <Image
             src={supervision}
             fill
-            className="object-cover"
+            className="object-contain"
             alt="Logo Of Homeland Ghana"
           />
         </div>
       </Grid>
-      <div className="w-full text-center bg-gray-900  text-white">
-        <h1 className="text-center text-4xl motion-preset-wobble-sm mb-6">
-          Our Services
-        </h1>
-        <p className="pl-5 pb-2 text-xl  tracking-widest animate-fadeIn ">
-          1. Quality Assurance: Supervision helps ensure that the work meets the
-          required standards and specifications, leading to higher quality
-          <span className=" text-amber-300"> outcomes.</span>
-        </p>
-        <p className="pl-5 pb-2 text-xl animate-fadeIn ">
-          2. Safety Management: A supervisor can enforce safety protocols
-          on-site, reducing the risk of accidents and ensuring a safe working
-          environment for all workers.
-        </p>
-        <p className="pl-5 pb-2 text-xl  tracking-widest animate-fadeIn ">
-          3. Project Coordination: Supervisors facilitate communication between
-          different teams, ensuring that everyone is aligned and that tasks are
-          completed in a timely manner.
-        </p>
-        <p className="pl-5 text-xl pb-2  tracking-widest animate-fadeIn ">
-          4. Problem Solving: With a supervisor on-site, issues can be
-          identified and resolved quickly, minimizing delays and maintaining
-          project momentum.
-        </p>
-        <p className="pl-5 text-xl pb-2  tracking-widest animate-fadeIn ">
-          5. Resource Management: Effective supervision ensures that materials
-          and resources are used efficiently, helping to stay within budget and
-          reduce waste.
-        </p>
-        <p className="pl-5 text-xl pb-2 tracking-widest animate-fadeIn ">
-          6. Compliance: Supervisors ensure that all work complies with local
-          laws, regulations, and building codes, avoiding legal issues down the
-          line.
-        </p>
-        <p className="pl-5 text-xl pb-2 tracking-widest animate-fadeIn ">
-          7. Team Motivation: A good supervisor can inspire and motivate the
-          team, fostering a positive work environment and enhancing
-          productivity.
-        </p>
-      </div>
     </div>
   );
 }
