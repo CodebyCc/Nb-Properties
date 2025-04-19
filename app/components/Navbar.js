@@ -23,6 +23,7 @@ export default function Navbar() {
               width={130}
               height={130}
               className="mt-2"
+              onClick={() => setIsOpen(false)}
             />
           </Link>
 
