@@ -47,7 +47,7 @@ const slides = [
 
 const FullVhCarousel = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-screen w-full">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -70,10 +70,12 @@ const FullVhCarousel = () => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-36 left-6 w-full text-white p-3  rounded-b-lg animate-pulse ">
-              <h3 className="text-3xl  hover:text-gray-800  ">{slide.title}</h3>
+            <div className="absolute bottom-48 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
+              <h3 className="text-3xl  hover:text-gray-800 motion-preset-slide-left-lg ">
+                {slide.title}
+              </h3>
               <Link href={slide.link}>
-                <div className="bg-amber-600 max-w-36 rounded-lg">
+                <div className="bg-amber-600 max-w-36 rounded-lg motion-preset-slide-down-lg ">
                   <p className=" text-white text-center ">Read more...</p>
                 </div>
               </Link>
