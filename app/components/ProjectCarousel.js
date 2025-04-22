@@ -82,9 +82,9 @@ function ProjectCarousel() {
                     {slide.title}.
                   </h3>
                   <Link href={slide.link}>
-                    <p className="text-lg text-gray-900 hover:text-amber-300">
-                      Read more...
-                    </p>
+                    <div className="bg-amber-600 max-w-28 rounded-lg">
+                      <p className=" text-white text-center ">Read more...</p>
+                    </div>
                   </Link>
                 </div>
               </div>
