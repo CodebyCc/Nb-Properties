@@ -47,7 +47,7 @@ const slides = [
 
 const FullVhCarousel = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-4/6 w-full">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -57,7 +57,7 @@ const FullVhCarousel = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>
-            <div className="relative w-full h-screen">
+            <div className="relative w-full  h-screen ">
               <Image
                 src={slide.image}
                 alt={slide.id}
@@ -70,7 +70,7 @@ const FullVhCarousel = () => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-10 left-6 w-full text-white p-3  rounded-b-lg animate-pulse ">
+            <div className="absolute bottom-32 left-6 w-full text-white p-3  rounded-b-lg animate-pulse ">
               <h3 className="text-3xl  hover:text-gray-800  ">{slide.title}</h3>
               <Link href={slide.link}>
                 <div className="bg-amber-600 max-w-28 rounded-lg">
