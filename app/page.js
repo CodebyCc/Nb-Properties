@@ -9,7 +9,7 @@ import ServicesCarousel from "./components/ServicesCarousel";
 export default function Home() {
   return (
     <div>
-      <ProjectCarousel />
+      <FullVhCarousel />
       <Ourstory />
       <ServicesCarousel />
 
