@@ -57,7 +57,7 @@ const FullVhCarousel = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>
-            <div className="relative w-full  h-screen ">
+            <div className="relative w-full  h-screen motion-preset-rebound-down">
               <Image
                 src={slide.image}
                 alt={slide.id}
@@ -70,7 +70,7 @@ const FullVhCarousel = () => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-48 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
+            <div className="absolute bottom-52 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
               <h3 className="text-3xl  hover:text-gray-800 motion-preset-slide-left-lg ">
                 {slide.title}
               </h3>
