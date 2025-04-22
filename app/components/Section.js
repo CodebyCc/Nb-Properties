@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import home2 from "../../public/IMG_9027.jpg";
 import modern1 from "../../public/modern1.jpg";
+import modern2 from "../../public/modern2.jpg";
 import minimal2 from "../../public/minimal2.jpg";
 import elegant from "../../public/elegant1.jpg";
 import Grid from "./Grid";
@@ -24,7 +25,7 @@ const details = [
       "   Offering you the opportunity to live comfortably in a luxurious   yet affordable homes. Discover the perfect blend of elegance and   affordability with our luxurious homes that dont break the bank.   Experience high-end finishes, spacious layouts, and modern     amenities, all designed to provide you with a comfortable    lifestyle. Enjoy the sophistication of upscale living while staying within your budget. Your dream home awaits!",
     span: "Homes",
 
-    image: modern1,
+    image: modern2,
     // image: "/../../public/black-style.webp",
     link: "home1",
   },

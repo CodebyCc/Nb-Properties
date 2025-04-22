@@ -8,7 +8,8 @@ import Image from "next/image";
 
 import minimal1 from "../../public/minimal1.jpg";
 import minimal2 from "../../public/minimal2.jpg";
-import modern2 from "../../public/modern2.jpg";
+
+import modern1 from "../../public/modern1.jpg";
 import elegant from "../../public/elegan 6.jpeg";
 
 import home2 from "../../public/IMG_9027.jpg";
@@ -32,7 +33,7 @@ const slides = [
   {
     id: 1,
     title: "Modern Luxe Homes",
-    image: modern2,
+    image: modern1,
     // image: "/../../public/black-style.webp",
     link: "/projects/#home1",
   },

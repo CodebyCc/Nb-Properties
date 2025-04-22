@@ -27,8 +27,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-gray-400 hover:text-white">
-                About
+              <Link href="/projects" className="text-gray-400 hover:text-white">
+                Projects
               </Link>
             </li>
             <li>
@@ -36,9 +36,10 @@ export default function Footer() {
                 Services
               </Link>
             </li>
+
             <li>
-              <Link href="/projects" className="text-gray-400 hover:text-white">
-                Projects
+              <Link href="/about" className="text-gray-400 hover:text-white">
+                About
               </Link>
             </li>
           </ul>
@@ -74,7 +75,7 @@ export default function Footer() {
         {/* Column 4 - Contact */}
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p className="text-gray-400 mt-2">Email: @nbpropertiesgh@brand.com</p>
+          <p className="text-gray-400 mt-2">Email: @nbpropertiesgh@gmail.com</p>
           <p className="text-gray-400">Phone: +233545124145 / +233245726248</p>
         </div>
       </div>
