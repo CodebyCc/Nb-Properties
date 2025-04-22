@@ -10,9 +10,8 @@ export default function Home() {
   return (
     <div>
       <ProjectCarousel />
-
-      <ServicesCarousel />
       <Ourstory />
+      <ServicesCarousel />
 
       {/* <Section /> */}
     </div>
