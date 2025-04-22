@@ -1,7 +1,7 @@
 function Ourstory() {
   return (
-    <div className=" bg-gray-900 text-white py-6 px-4">
-      <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-16">
+    <div className="  text-gray-950 py-6 px-4">
+      <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-2">
         <h1 className="text-4xl mb-4 motion-preset-wobble-sm">Our Story</h1>
         <p className="text-lg leading-relaxed mb-6">
           Welcome to <span className="text-yellow-400">𝐍𝐁 𝐏𝐫𝐨𝐩𝐞𝐫𝐭𝐢𝐞𝐬 </span>

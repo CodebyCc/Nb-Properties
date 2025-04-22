@@ -19,10 +19,16 @@ function Section() {
               </h1>
             </div>
 
-            <p className="pl-5 text-lg leading-relaxed  tracking-widest animate-slideUp">
+            <p className="pl-5 text-lg leading-relaxed animate-slideUp">
               Less is more. In minimalistic contemporary design, simplicity
               creates space for elegance, allowing beauty to shine through in
-              every detail.
+              every detail. These designs are testament to our commitment to
+              clean lines, functional design, and a focus on quality materials.
+              We believe that less is more, and our homes are designed to create
+              a sense of calm and serenity. Our minimalist contemporary homes
+              are more than just simple and beautiful; they are functional,
+              sustainable, easy build and designed to enhance the lives of our
+              clients.
             </p>
           </div>
           <div className="relative -z-30 aspect-square motion-preset-slide-right-lg">
@@ -70,7 +76,7 @@ function Section() {
             </h1>
           </div>
 
-          <p className="pl-5 text-xl leading-relaxed ">
+          <p className="pl-5 text-lg leading-relaxed ">
             Explore our collection of innovative elegant designs that redefine
             style and functionality. Each piece is thoughtfully crafted to blend
             modern aesthetics with timeless sophistication, ensuring that your

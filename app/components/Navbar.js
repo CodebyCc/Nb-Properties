@@ -32,14 +32,16 @@ export default function Navbar() {
             <Link href="/" className=" hover:text-yellow-400">
               Home
             </Link>
-            <Link href="/about" className=" hover:text-yellow-400">
-              About
+            <Link href="/projects" className=" hover:text-yellow-400">
+              Projects
             </Link>
+
             <Link href="/services" className=" hover:text-yellow-400">
               Services
             </Link>
-            <Link href="/projects" className=" hover:text-yellow-400">
-              Projects
+
+            <Link href="/about" className=" hover:text-yellow-400">
+              About
             </Link>
           </div>
 
@@ -74,12 +76,13 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/about"
+              href="/projects"
               className=" hover:text-yellow-400"
               onClick={() => setIsOpen(false)}
             >
-              About
+              Projects
             </Link>
+
             <Link
               href="/services"
               className=" hover:text-yellow-400"
@@ -87,12 +90,13 @@ export default function Navbar() {
             >
               Services
             </Link>
+
             <Link
-              href="/projects"
+              href="/about"
               className=" hover:text-yellow-400"
               onClick={() => setIsOpen(false)}
             >
-              Projects
+              About
             </Link>
           </div>
         </div>
