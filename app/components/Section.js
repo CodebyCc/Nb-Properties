@@ -44,38 +44,31 @@ import Grid from "./Grid";
 function Section({ details }) {
   return (
     <div className="mt-2">
-      <div>
-        <Grid>
-          {details.map((detail) => (
-            <>
-              <div
-                id={detail.link}
-                key={detail.id}
-                className="mt-6 md:mt-0 motion-preset-slide-right-lg"
-              >
-                <div>
-                  <h1 className="text-center text-3xl md:text-4xl  mb-6 animate-pulse">
-                    {detail.heading}
-                    <span className="text-yellow-400"> {detail.span}</span>
-                  </h1>
-                </div>
+      {details.map((detail) => (
+        <Grid key={detail.id}>
+          <div
+            id={detail.link}
+            className="mt-6 md:mt-0 motion-preset-slide-right-lg"
+          >
+            <div>
+              <h1 className="text-center text-3xl md:text-4xl  mb-6 animate-pulse">
+                {detail.heading}
+                <span className="text-yellow-400"> {detail.span}</span>
+              </h1>
+            </div>
 
-                <p className="pl-5 text-lg leading-relaxed ">
-                  {detail.content}
-                </p>
-              </div>
-              <div className="relative -z-30 aspect-square motion-preset-slide-left-lg ">
-                <Image
-                  src={detail.image}
-                  fill
-                  className="object-cover"
-                  alt="Image of homes"
-                />
-              </div>
-            </>
-          ))}
+            <p className="pl-5 text-lg leading-relaxed ">{detail.content}</p>
+          </div>
+          <div className="relative -z-30 aspect-square motion-preset-slide-left-lg ">
+            <Image
+              src={detail.image}
+              fill
+              className="object-cover"
+              alt="Image of homes"
+            />
+          </div>
         </Grid>
-      </div>
+      ))}
     </div>
   );
 }

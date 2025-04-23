@@ -23,7 +23,7 @@ const details = [
       "   Offering you the opportunity to live comfortably in a luxurious   yet affordable homes. Discover the perfect blend of elegance and   affordability with our luxurious homes that dont break the bank.   Experience high-end finishes, spacious layouts, and modern     amenities, all designed to provide you with a comfortable    lifestyle. Enjoy the sophistication of upscale living while staying within your budget. Your dream home awaits!",
     span: "Homes",
 
-    image: modern2,
+    image: modern1,
     // image: "/../../public/black-style.webp",
     link: "home1",
   },
