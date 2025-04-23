@@ -6,14 +6,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
 
-import minimal1 from "../../public/minimal1.jpg";
-import minimal2 from "../../public/minimal2.jpg";
-
-import modern1 from "../../public/modern1.jpg";
-import elegant from "../../public/elegan 6.jpeg";
-
-import home2 from "../../public/IMG_9027.jpg";
-
 import Link from "next/link";
 
 // const slides = [
@@ -24,7 +16,7 @@ import Link from "next/link";
 
 const FullVhCarousel = ({ slides }) => {
   return (
-    <div className="h-screen w-full ">
+    <div className="h-screen w-full max-w-[1100px] ">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -47,7 +39,7 @@ const FullVhCarousel = ({ slides }) => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-48  md:bottom-20 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
+            <div className="absolute bottom-48  md:bottom-16 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
               <h3 className="text-3xl  hover:text-gray-800 motion-preset-slide-up-lg ">
                 {slide.title}
               </h3>

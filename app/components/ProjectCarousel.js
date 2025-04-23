@@ -17,6 +17,7 @@ import "swiper/css/effect-coverflow";
 import minimal1 from "../../public/minimal1.jpg";
 import modern2 from "../../public/modern2.jpg";
 import elegant from "../../public/elegan 6.jpeg";
+import small from "../../public/small.png";
 
 // import elegant from "../../public/elegant2.jpg";
 
@@ -25,7 +26,7 @@ const slides = [
     id: 3,
     title: "Minimalistic Contemporary Homes",
     // image: "/../../public/black-style.webp",
-    image: minimal1,
+    image: small,
     link: "/projects/#home3",
   },
   {
@@ -45,7 +46,7 @@ const slides = [
 ];
 function ProjectCarousel() {
   return (
-    <div className="bg-gray-900 md:hidden">
+    <div className="bg-gray-900 md:hidden motion-preset-slide-right">
       <div className="w-full max-w-4xl mx-auto">
         <Swiper
           modules={[Navigation, Autoplay, Pagination, EffectCoverflow]}

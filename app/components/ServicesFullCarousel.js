@@ -30,11 +30,13 @@ const slidesServices = [
 
 function ServicesFullCarousel() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 ">
       <h1 className="text-3xl pt-6  mb-4 text-center text-white  animate-pulse">
         Our Services
       </h1>
-      <FullVhCarousel slides={slidesServices} />
+      <div className="flex justify-center items-center bg-gray-900">
+        <FullVhCarousel slides={slidesServices} />
+      </div>
     </div>
   );
 }

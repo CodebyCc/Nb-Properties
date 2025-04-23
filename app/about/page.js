@@ -1,42 +1,8 @@
-//       <p className="text-center font-semibold ">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p className="text-center font-semibold -tracking-wider">
-//
-//       </p>
-//       <p p className="text-center font-semibold -tracking-wider">
-//         Overall, effective supervision is crucial for the successful completion
-//         of any construction or architectural project. If you need more details
-//         on any specific benefit, let us know!
-//       </p>
-//       <h2 className="text-center text-6xl font-bold mb-6">Land surveying</h2>
-//       <p className="pl-5 text-xl text-center font-semibold -tracking-wider">
-//         (precise art of measuring and mapping, laying the groundwork for
-//         development) At Nb Properties, land surveying is the cornerstone of our
-//         projects, providing accurate measurements and insights that shape the
-//         future of development with precision and integrity
-//       </p>
-//     </div>
 //   );
 export default function page() {
   return (
-    <div className="bg-gray-900 text-white py-6 px-4">
-      <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-16">
+    <div className="bg-gray-900 text-white py-6 px-4 ">
+      <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-16 motion-preset-slide-up-md">
         <h1 className="text-4xl font-bold mb-4">About Us</h1>
         <p className="text-lg leading-relaxed mb-6">
           Welcome to <span className="text-yellow-400">𝐍𝐁 𝐏𝐫𝐨𝐩𝐞𝐫𝐭𝐢𝐞𝐬 </span>

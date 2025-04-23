@@ -5,6 +5,8 @@ import {
   FaSnapchat,
   FaTwitter,
   FaTiktok,
+  FaWhatsapp,
+  CiMail,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -99,9 +101,12 @@ export default function Footer() {
           {/* <Link className="px-2" href="">
             <FaTwitter size={30} spacing={40} />
           </Link> */}
-          {/* <Link className="px-2" href="/">
-            <FaSnapchat size={30} spacing={40} />
+          {/* <Link href="mail:ciici6440@gmail.com">
+            <CiMail size={30} spacing={40} />
           </Link> */}
+          <Link className="px-2" href="/">
+            <FaWhatsapp size={30} spacing={40} />
+          </Link>
           <Link
             className="px-2"
             href="https://www.tiktok.com/@emvel_royal?_t=ZS-8ukqTVyQySA&_r=1"
