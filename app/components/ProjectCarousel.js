@@ -26,7 +26,7 @@ const slides = [
     id: 3,
     title: "Minimalistic Contemporary Homes",
     // image: "/../../public/black-style.webp",
-    image: small,
+    image: minimal1,
     link: "/projects/#home3",
   },
   {
