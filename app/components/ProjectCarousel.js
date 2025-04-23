@@ -15,11 +15,9 @@ import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
 import minimal1 from "../../public/minimal1.jpg";
-import minimal2 from "../../public/minimal2.jpg";
 import modern2 from "../../public/modern2.jpg";
 import elegant from "../../public/elegan 6.jpeg";
 
-import home2 from "../../public/IMG_9027.jpg";
 // import elegant from "../../public/elegant2.jpg";
 
 const slides = [
@@ -47,7 +45,7 @@ const slides = [
 ];
 function ProjectCarousel() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 md:hidden">
       <div className="w-full max-w-4xl mx-auto">
         <Swiper
           modules={[Navigation, Autoplay, Pagination, EffectCoverflow]}

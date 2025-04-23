@@ -22,33 +22,9 @@ import Link from "next/link";
 //   { src: minimal2, alt: "Slide 3" },
 // ];
 
-const slides = [
-  {
-    id: 3,
-    title: "Minimalistic Contemporary Homes",
-    // image: "/../../public/black-style.webp",
-    image: minimal1,
-    link: "/projects/#home3",
-  },
-  {
-    id: 1,
-    title: "Modern Luxe Homes",
-    image: modern1,
-    // image: "/../../public/black-style.webp",
-    link: "/projects/#home1",
-  },
-  {
-    id: 2,
-    title: "Innovative Elegant Designs",
-    image: elegant,
-
-    link: "/projects/#home2",
-  },
-];
-
-const FullVhCarousel = () => {
+const FullVhCarousel = ({ slides }) => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full ">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -71,7 +47,7 @@ const FullVhCarousel = () => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-52 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
+            <div className="absolute bottom-48  md:bottom-20 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
               <h3 className="text-3xl  hover:text-gray-800 motion-preset-slide-up-lg ">
                 {slide.title}
               </h3>

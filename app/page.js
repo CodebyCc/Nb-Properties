@@ -1,19 +1,18 @@
-import Carousel from "./components/Carousel";
 import FullVhCarousel from "./components/FullVhCarousel";
-import Nav from "./components/Nav";
+
 import Ourstory from "./components/Ourstory";
 import ProjectCarousel from "./components/ProjectCarousel";
-import Section from "./components/Section";
-import ServicesCarousel from "./components/ServicesCarousel";
+
+import ProjectFullCarousel from "./components/ProjectFullCarousel";
+import ServicesFullCarousel from "./components/ServicesFullCarousel";
 
 export default function Home() {
   return (
     <div>
-      <FullVhCarousel />
+      <ProjectCarousel />
+      <ProjectFullCarousel />
       <Ourstory />
-      <ServicesCarousel />
-
-      {/* <Section /> */}
+      <ServicesFullCarousel />
     </div>
   );
 }

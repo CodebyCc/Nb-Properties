@@ -1,5 +1,6 @@
 import Grid from "../components/Grid";
 import home1 from "../../public/IMG_9019.jpg";
+import mosbius from "../../public/mosbius.jpg";
 
 import home2 from "../../public/architect.jpg";
 import home3 from "../../public/mason.jpg";
@@ -30,7 +31,7 @@ export default function Page() {
             src={home3}
             fill
             className="object-contain"
-            alt="Logo Of Homeland Ghana"
+            alt="Image of a mason"
           />
         </div>
       </Grid>
@@ -50,10 +51,10 @@ export default function Page() {
         </div>
         <div className=" relative -z-30 aspect-square ml-4 motion-preset-slide-left-lg">
           <Image
-            src={home2}
+            src={mosbius}
             fill
             className="object-contain"
-            alt="Logo Of Homeland Ghana"
+            alt="Image of architects"
           />
         </div>
       </Grid>
@@ -109,7 +110,7 @@ export default function Page() {
             src={supervision}
             fill
             className="object-contain"
-            alt="Logo Of Homeland Ghana"
+            alt="A group of labourers"
           />
         </div>
       </Grid>
