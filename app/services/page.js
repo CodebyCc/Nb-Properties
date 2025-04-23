@@ -1,8 +1,7 @@
 import Grid from "../components/Grid";
-import home1 from "../../public/IMG_9019.jpg";
-import mosbius from "../../public/mosbius.jpg";
 
-import home2 from "../../public/architect.jpg";
+import mosbi from "../../public/mosbi.webp";
+
 import home3 from "../../public/mason.jpg";
 import supervision from "../../public/supervision.webp";
 
@@ -51,7 +50,7 @@ export default function Page() {
         </div>
         <div className=" relative -z-30 aspect-square ml-4 motion-preset-slide-left-lg">
           <Image
-            src={mosbius}
+            src={mosbi}
             fill
             className="object-contain"
             alt="Image of architects"
