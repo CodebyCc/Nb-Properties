@@ -77,7 +77,7 @@ function ProjectCarousel() {
                   className="rounded-lg shadow-lg object-cover"
                 />
                 <div className="absolute bottom-10 left-6 w-full  p-3 text-gray-200 rounded-b-lg animate-pulse">
-                  <h3 className="text-4xl  hover:text-gray-800  ">
+                  <h3 className="text-2xl md:text-4xl  hover:text-gray-800  ">
                     {slide.title}.
                   </h3>
                   <Link href={slide.link}>

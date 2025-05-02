@@ -86,7 +86,7 @@ export default function Footer() {
         <div className="flex ">
           <Link
             className="px-2"
-            href="https://www.instagram.com/emvelnatural?igsh=MWg2YmY1em54bGt4bQ=="
+            href="https://www.instagram.com/buildwithnb/?igsh=NjV1d2ZkNnM3dWty#"
             target="_blank"
           >
             <FaInstagram size={30} />
@@ -109,7 +109,7 @@ export default function Footer() {
           </Link>
           <Link
             className="px-2"
-            href="https://www.tiktok.com/@emvel_royal?_t=ZS-8ukqTVyQySA&_r=1"
+            href="https://www.tiktok.com/@buildwithnb?_t=ZM-8vyOOmvJq58&_r=1"
             target="_blank"
           >
             <FaTiktok size={30} spacing={40} />

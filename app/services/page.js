@@ -15,7 +15,9 @@ export default function Page() {
     <div>
       <Grid>
         <div id="home1" className="mt-2 motion-preset-slide-right-lg ">
-          <h1 className="text-center text-4xl  mb-6">Building Procurement</h1>
+          <h1 className="text-center text-3xl md:text-4xl animate-pulse mb-6">
+            Building Procurement
+          </h1>
           <p className="pl-5 text-lg">
             Effective building procurement is the foundation of successful
             construction; it ensures quality materials, timely delivery, and
@@ -36,7 +38,9 @@ export default function Page() {
       </Grid>
       <Grid>
         <div id="home3" className="mt motion-preset-slide-right-lg">
-          <h1 className="text-center text-4xl  mb-6">Architecture</h1>
+          <h1 className="text-center text-3xl  md:text-4xl  mb-6">
+            Architecture
+          </h1>
           <p className="pl-5 text-lg ">
             Architecture is the art of creating spaces that inspire, first stage
             to bring dreams into reality while supervision ensures quality
@@ -59,7 +63,9 @@ export default function Page() {
       </Grid>
       <Grid>
         <div id="home2" className="mt motion-preset-slide-right-lg">
-          <h1 className="text-center text-4xl  mb-6">Property Supervision</h1>
+          <h1 className="text-center text-3xl  md:text-4xl animate-pulse mb-6">
+            Property Supervision
+          </h1>
 
           <p className="pl-5 text-lg  mb-2 ">
             At Nb Properties, supervision is not just oversight; it&apos;s a
