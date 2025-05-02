@@ -64,7 +64,7 @@ function ProjectCarousel() {
             modifier: 1,
             slideShadows: true,
           }}
-          className="w-full h-[400px] overflow-hidden"
+          className="w-full h-[380px] overflow-hidden"
           // className="mySwiper"
         >
           {slides.map((slide) => (
