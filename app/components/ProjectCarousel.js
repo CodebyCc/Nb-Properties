@@ -68,7 +68,7 @@ function ProjectCarousel() {
           // className="mySwiper"
         >
           {slides.map((slide) => (
-            <SwiperSlide key={slide.id} className="relative w-full h-[380px]">
+            <SwiperSlide key={slide.id} className="relative w-full h-[400px]">
               <div className="relative w-full h-full cursor-pointer">
                 <Image
                   src={slide.image}
