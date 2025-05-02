@@ -64,11 +64,11 @@ function ProjectCarousel() {
             modifier: 1,
             slideShadows: true,
           }}
-          className="w-full h-[380px] overflow-hidden"
+          className="w-full h-[400px] overflow-hidden"
           // className="mySwiper"
         >
           {slides.map((slide) => (
-            <SwiperSlide key={slide.id} className="relative w-full h-[400px]">
+            <SwiperSlide key={slide.id} className="relative w-full h-[380px]">
               <div className="relative w-full h-full cursor-pointer">
                 <Image
                   src={slide.image}
