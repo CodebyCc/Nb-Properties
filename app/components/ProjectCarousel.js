@@ -19,7 +19,7 @@ import modern2 from "../../public/modern2.jpg";
 import elegant from "../../public/elegan 6.jpeg";
 import small from "../../public/small.png";
 
-// import elegant from "../../public/elegant2.jpg";
+// import elegant from "../../public/elegan5.jpeg";
 
 const slides = [
   {
@@ -76,8 +76,8 @@ function ProjectCarousel() {
                   // layout="md:fill"
                   className="rounded-lg shadow-lg object-cover"
                 />
-                <div className="absolute bottom-10 left-6 w-full  p-3 text-gray-200 rounded-b-lg animate-pulse">
-                  <h3 className="text-3xl md:text-4xl  hover:text-gray-800  ">
+                <div className="absolute bottom-14 left-6 w-full  p-3 text-gray-200 rounded-b-lg animate-pulse">
+                  <h3 className="text-2xl hover:text-gray-800  ">
                     {slide.title}.
                   </h3>
                   <Link href={slide.link}>
