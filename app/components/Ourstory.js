@@ -1,9 +1,9 @@
 function Ourstory() {
   return (
-    <div className="  text-gray-950 py-6 px-4">
+    <div className=" h-screen text-gray-950  py-6 px-4">
       <div className="max-w-4xl mx-auto px-6 py-12 text-center flex flex-col justify-center mt-2">
         <h1 className="text-4xl mb-4 motion-preset-wobble-sm">Our Story</h1>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="text-lg text-center leading-relaxed mb-6">
           Welcome to <span className="text-yellow-400">𝐍𝐁 𝐏𝐫𝐨𝐩𝐞𝐫𝐭𝐢𝐞𝐬 </span>
           .We&apos;re your go-to experts for all things real estate. Whether
           you&apos;re looking to buy, sell, or invest, our dedicated team is

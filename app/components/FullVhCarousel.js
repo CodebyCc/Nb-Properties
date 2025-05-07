@@ -16,7 +16,7 @@ import Link from "next/link";
 
 const FullVhCarousel = ({ slides }) => {
   return (
-    <div className="h-screen w-full max-w-[1100px] ">
+    <div className="h-screen w-full md:max-w-[1300px] ">
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -39,7 +39,7 @@ const FullVhCarousel = ({ slides }) => {
                 <h2 className="text-xl font-semibold">{slide.alt}</h2>
               </div> */}
             </div>
-            <div className="absolute bottom-48  md:bottom-16 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
+            <div className="absolute bottom-48  md:bottom-32 left-6 w-full text-white p-3   rounded-b-lg animate-pulse ">
               <h3 className="text-3xl  hover:text-gray-800 motion-preset-slide-up-lg ">
                 {slide.title}
               </h3>
