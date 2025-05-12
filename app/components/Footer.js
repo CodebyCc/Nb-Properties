@@ -77,7 +77,7 @@ export default function Footer() {
         {/* Column 4 - Contact */}
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p className="text-gray-400 mt-2">Email: @nbpropertiesgh@gmail.com</p>
+          <p className="text-gray-400 mt-2">Email: nbpropertiesgh@gmail.com</p>
           <p className="text-gray-400">Phone: +233545124145 / +233245726248</p>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Footer() {
           </Link>
           <Link
             className="px-2"
-            href="https://www.facebook.com/share/1Hcr3mgbFq"
+            href="https://facebook.com/Nbpropertiesgh"
             target="_blank"
           >
             <FaFacebook size={30} spacing={40} />
@@ -104,7 +104,11 @@ export default function Footer() {
           {/* <Link href="mail:ciici6440@gmail.com">
             <CiMail size={30} spacing={40} />
           </Link> */}
-          <Link className="px-2" href="/">
+          <Link
+            className="px-2"
+            href="https://wa.me/233545124145"
+            target="_blank"
+          >
             <FaWhatsapp size={30} spacing={40} />
           </Link>
           <Link

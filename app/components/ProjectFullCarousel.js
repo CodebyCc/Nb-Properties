@@ -32,6 +32,7 @@ const slidesProject = [
     link: "/projects/#home2",
   },
 ];
+
 function ProjectFullCarousel() {
   return (
     <div className="hidden md:flex justify-center items-center bg-gray-900">
